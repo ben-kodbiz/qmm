@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Mermaid Diagrams</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose'
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
+        
+        <!-- First Diagram -->
+        <h2>Mindmap for Surah Al-A'raf</h2>
+        <div class="mermaid">
+            mindmap
+                root((Al-A'raf))
+                    Story of Adam and Eve
+                        Creation
+                        Temptation by Satan
+                        Expulsion from Paradise
+                    Consequences of Disobedience
+                        Punishment in this life and the Hereafter
+                    Stories of Past Prophets
+                        Noah
+                            Flood
+                            Disbelievers drowned
+                        Hud
+                            People of 'Ad
+                            Rejection and destruction
+                        Salih
+                            People of Thamud
+                            She-camel as a sign
+                            Rejection and earthquake
+                        Lot
+                            People of Sodom and Gomorrah
+                            Immorality and punishment
+                        Shu'ayb
+                            People of Midian
+                            Dishonesty and destruction
+                        Moses
+                            Confrontation with Pharaoh
+                            Signs and miracles
+                            The Golden Calf
+                            The Ten Commandments
+                    Mission of the Prophets
+                        To guide people to the right path
+                        To warn against evil
+                        To convey God's message
+                    Rewards of the Righteous
+                        Paradise
+                        Eternal bliss
+                        Fulfillment of desires
+                    Punishment of the Wicked
+                        Hell
+                        Eternal torment
+                        Regret and despair
+                    Creation and Purpose of Mankind
+                        Created from a single soul
+                        Purpose of life as a test
+                    Importance of Remembering God
+                        Reflecting on His signs
+                        Being grateful
+        </div>
+
+        <!-- Second Diagram -->
+        <h2>Key Themes</h2>
+        <div class="mermaid">
+            graph LR
+    A[Al-A'raf] --> B(The Story of Adam and Eve);
+    A --> C(The Consequences of Disobedience);
+    A --> D(The Stories of Past Prophets);
+    D --> D1(Noah);
+    D --> D2(Hud);
+    D --> D3(Salih);
+    D --> D4(Lot);
+    D --> D5(Shu'ayb);
+    D --> D6(Moses);
+    A --> E(The Mission of the Prophets);
+    A --> F(The Rejection of the Truth by Disbelievers);
+    A --> G(The Importance of Following God's Guidance);
+    A --> H(The Day of Judgement);
+    A --> I(The Rewards of the Righteous);
+    A --> J(The Punishment of the Wicked);
+    A --> K(The Oneness of God);
+    A --> L(The Creation and Purpose of Mankind);
+    A --> M(The Importance of Remembering God);
+    A --> N(The Concept of Predestination);
+    A --> O(The Role of Satan in Leading People Astray);
+    A --> P(The Significance of the Quran);
+        </div>
+    </div>
+</body>
+</html>
