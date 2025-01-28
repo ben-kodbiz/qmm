@@ -23,4 +23,10 @@ Key Themes in Surah Al-Baqarah (from the provided text and general knowledge):
     ----------------------------------------------------------------------
 
     Ali-imran
-    
+    graph LR
+        
+         A[Al-Baqarah-Change of leadership-]
+         A --> C(Verse 1 to 39-Adopt the attitude of belief from the 3 attitudes of belief, disbelief and hypocrisy regarding the position of leadership and Tawheed);
+         A --> D(Verses 40 to 141,Explanation of the reasons for deposition of bani israel from the position of leadership and the appointment of the Ummah of Muhammad SAW);
+         A --> E(Verses 142 to 284,The Ummah of Muhammad SAW is given the position of leadership and the conditions of leadership are explained);
+         A --> F(Verses 284 to 286 -You will get power and domination if you followed the commandments of last Divine Law sincerely according to your capacity);
