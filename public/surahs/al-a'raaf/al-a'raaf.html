@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Mermaid Diagrams</title>
+    <title>Mindmap for Surah al-araaf</title>
     <link rel="stylesheet" href="/public/style.css">
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
@@ -17,86 +17,71 @@
 <body>
     <div class="container">
         <button onclick="history.back()" style="margin-bottom: 20px;">Go Back</button>
-        
-        <!-- First Diagram -->
-        <h2>Mindmap for Surah Al-A'raf</h2>
-        <div class="mermaid">
-            mindmap
-                root((Al-A'raf))
-                    Story of Adam and Eve
-                        Creation
-                        Temptation by Satan
-                        Expulsion from Paradise
-                    Consequences of Disobedience
-                        Punishment in this life and the Hereafter
-                    Stories of Past Prophets
-                        Noah
-                            Flood
-                            Disbelievers drowned
-                        Hud
-                            People of 'Ad
-                            Rejection and destruction
-                        Salih
-                            People of Thamud
-                            She-camel as a sign
-                            Rejection and earthquake
-                        Lot
-                            People of Sodom and Gomorrah
-                            Immorality and punishment
-                        Shu'ayb
-                            People of Midian
-                            Dishonesty and destruction
-                        Moses
-                            Confrontation with Pharaoh
-                            Signs and miracles
-                            The Golden Calf
-                            The Ten Commandments
-                    Mission of the Prophets
-                        To guide people to the right path
-                        To warn against evil
-                        To convey God's message
-                    Rewards of the Righteous
-                        Paradise
-                        Eternal bliss
-                        Fulfillment of desires
-                    Punishment of the Wicked
-                        Hell
-                        Eternal torment
-                        Regret and despair
-                    Creation and Purpose of Mankind
-                        Created from a single soul
-                        Purpose of life as a test
-                    Importance of Remembering God
-                        Reflecting on His signs
-                        Being grateful
+        <h1 id="surah-title">Mindmap for Surah al-araaf</h1>
+        <div id="mermaid-container" class="mermaid">
+          mindmap
+          root((Al-A'raf))
+            Introduction
+              Purpose of the Revelation
+              Warning Against Disbelief
+            Creation and Early Humankind
+              Story of Adam and Eve
+              Iblees's Deception
+              Consequences of Disobedience
+            Consequences of Disbelief
+              Punishment in this World and the Hereafter
+              Examples from Past Nations
+            Stories of the Prophets
+              Nooh (Noah)
+              Hud
+              Salih
+              Lut (Lot)
+              Shu'ayb
+            Story of Musa (Moses)
+              Confrontation with Pharaoh
+              The Ten Commandments
+              The Golden Calf
+              Wandering in the Wilderness
+            Covenant with the Children of Israel
+              Reminders of Allah's Blessings
+              Warnings against Breaking the Covenant
+            The Qur'an and its Purpose
+              Guidance and Mercy
+              Confirmation of Previous Scriptures
+            Warning Against Shirk
+              Allah's Oneness
+              Prohibition of Idolatry
+            Final Admonitions
+              Importance of Following the Messenger
+              Reward for the Believers
+              Punishment for the Disbelievers
+              Day of Judgement
+            Conclusion
+              Emphasis on Allah's Mercy and Justice
+              Call to Repentance and Follow the Right Path
         </div>
-
-        <!-- Second Diagram -->
-        <h2>Key Themes</h2>
-        <div class="mermaid">
-            graph LR
-    A[Al-A'raf] --> B(The Story of Adam and Eve);
-    A --> C(The Consequences of Disobedience);
-    A --> D(The Stories of Past Prophets);
-    D --> D1(Noah);
-    D --> D2(Hud);
-    D --> D3(Salih);
-    D --> D4(Lot);
-    D --> D5(Shu'ayb);
-    D --> D6(Moses);
-    A --> E(The Mission of the Prophets);
-    A --> F(The Rejection of the Truth by Disbelievers);
-    A --> G(The Importance of Following God's Guidance);
-    A --> H(The Day of Judgement);
-    A --> I(The Rewards of the Righteous);
-    A --> J(The Punishment of the Wicked);
-    A --> K(The Oneness of God);
-    A --> L(The Creation and Purpose of Mankind);
-    A --> M(The Importance of Remembering God);
-    A --> N(The Concept of Predestination);
-    A --> O(The Role of Satan in Leading People Astray);
-    A --> P(The Significance of the Quran);
-        </div>
-    </div>
+     <!-- Second Diagram -->
+     <h2>Key Themes</h2>
+     <div class="mermaid">
+      graph LR
+      A[Al-Anfal] --> B(Verses 1-4: Spoils of War and Defining True Believers);
+      A --> C(Verses 5-19: The Battle of Badr - Allah's Support and Promise of Victory);
+      A --> D(Verses 20-29: Obedience to Allah and His Messenger, Warning Against Hypocrisy);
+      A --> E(Verses 30-40: Plots of Disbelievers, Allah's Plan, and the Importance of Trust in Allah);
+      A --> F(Verses 41-48: Distribution of Spoils, Further Lessons from Badr);
+      A --> G(Verses 49-71: Dealing with Disbelievers and Hypocrites, Condemnation of Disbelief);
+      A --> H(Verses 72-75: Migration, Support, and Brotherhood among Believers);
+      B --> B1(Initial Question about Spoils of War);
+      B --> B2(Characteristics of True Believers);
+      C --> C1(Allah's Intervention and Aid to Believers);
+      D --> D1(Command to Obey Allah and His Messenger);
+      E --> E1(Consequences of Disbelief);
+      F --> F1(One-fifth for Allah, the Messenger, and Others);
+      G --> G1(Steadfastness and Patience);
+      H --> H1(Importance of Hijrah and Mutual Support);
+         
+    
+      </div>
+    <script src="al-araaf.js"></script>
 </body>
 </html>
