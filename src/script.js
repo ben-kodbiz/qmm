@@ -1,5 +1,5 @@
 function createSurahGrid() {
-    fetch("/data/all_surahs.json")
+    fetch("/public/data/all_surahs.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
